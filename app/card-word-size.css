@@ -1,0 +1,15 @@
+.is-flipped .word {
+  font-size: clamp(40px, 5vw, 64px);
+}
+
+@media (max-width: 760px) {
+  .is-flipped .word {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .is-flipped .word {
+    font-size: 44px;
+  }
+}
