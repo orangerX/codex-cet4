@@ -1,56 +1,15 @@
-.is-flipped .card-content {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  align-items: center;
-  gap: clamp(24px, 5vw, 56px);
-  text-align: left;
-}
-
 .is-flipped .word {
   font-size: clamp(40px, 5vw, 64px);
-  justify-self: start;
-  text-align: left;
-}
-
-.is-flipped .answer {
-  width: 100%;
-  margin-top: 0;
-  padding-left: clamp(20px, 3vw, 34px);
-  border-left: 1px solid #e5eaf3;
-  text-align: left;
-}
-
-.is-flipped .phrase {
-  min-width: 0;
 }
 
 @media (max-width: 760px) {
-  .is-flipped .card-content {
-    gap: 18px;
-    padding-inline: 19px;
-  }
-
   .is-flipped .word {
     font-size: 50px;
-  }
-
-  .is-flipped .answer {
-    padding-left: 18px;
   }
 }
 
 @media (max-width: 420px) {
-  .is-flipped .card-content {
-    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-    gap: 12px;
-    padding-inline: 15px;
-  }
-
   .is-flipped .word {
     font-size: 44px;
-  }
-
-  .is-flipped .answer {
-    padding-left: 12px;
   }
 }
